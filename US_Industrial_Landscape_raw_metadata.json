@@ -1,0 +1,133 @@
+{
+  "tag": "raw",
+  "shape": [
+    10,
+    10,
+    198
+  ],
+  "axis_order": [
+    "node",
+    "feature",
+    "time"
+  ],
+  "start_date": "2010-01-01",
+  "end_date": "2026-06-01",
+  "missing_values": 60,
+  "sources": {
+    "CES_and_JOLTS": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+    "JOLTS_metadata": "https://download.bls.gov/pub/time.series/jt/jt.series",
+    "BFS": "https://www.census.gov/econ/bfs/csv/bfs_monthly.csv"
+  },
+  "node_config": [
+    [
+      "N01",
+      "Mining and Logging",
+      "10",
+      "110099",
+      [
+        "NAICS21"
+      ]
+    ],
+    [
+      "N02",
+      "Construction",
+      "20",
+      "230000",
+      [
+        "NAICS23"
+      ]
+    ],
+    [
+      "N03",
+      "Manufacturing",
+      "30",
+      "300000",
+      [
+        "NAICSMNF"
+      ]
+    ],
+    [
+      "N04",
+      "Trade, Transportation, and Utilities",
+      "40",
+      "400000",
+      [
+        "NAICS22",
+        "NAICS42",
+        "NAICSRET",
+        "NAICSTW"
+      ]
+    ],
+    [
+      "N05",
+      "Information",
+      "50",
+      "510000",
+      [
+        "NAICS51"
+      ]
+    ],
+    [
+      "N06",
+      "Financial Activities",
+      "55",
+      "510099",
+      [
+        "NAICS52",
+        "NAICS53"
+      ]
+    ],
+    [
+      "N07",
+      "Professional and Business Services",
+      "60",
+      "540099",
+      [
+        "NAICS54",
+        "NAICS55",
+        "NAICS56"
+      ]
+    ],
+    [
+      "N08",
+      "Private Education and Health Services",
+      "65",
+      "600000",
+      [
+        "NAICS61",
+        "NAICS62"
+      ]
+    ],
+    [
+      "N09",
+      "Leisure and Hospitality",
+      "70",
+      "700000",
+      [
+        "NAICS71",
+        "NAICS72"
+      ]
+    ],
+    [
+      "N10",
+      "Other Services",
+      "80",
+      "810000",
+      [
+        "NAICS81"
+      ]
+    ]
+  ],
+  "features": [
+    "employment_level_thousands",
+    "average_weekly_hours",
+    "real_average_hourly_earnings_1982_84_dollars",
+    "job_openings_rate_pct",
+    "hires_rate_pct",
+    "quits_rate_pct",
+    "layoffs_discharges_rate_pct",
+    "business_application_intensity_per_10000_employees",
+    "high_propensity_application_share",
+    "planned_wage_application_share"
+  ]
+}

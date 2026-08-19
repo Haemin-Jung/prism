@@ -1,0 +1,53 @@
+{
+  "tag": "complete",
+  "shape": [
+    10,
+    10,
+    189
+  ],
+  "axis_order": [
+    "node",
+    "feature",
+    "time"
+  ],
+  "start_date": "2010-01-01",
+  "end_date": "2025-09-01",
+  "missing_values": 0,
+  "derived_from": "US_Industrial_Landscape_raw_tensor.npz",
+  "node_ids": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09",
+    "N10"
+  ],
+  "node_names": [
+    "Mining and Logging",
+    "Construction",
+    "Manufacturing",
+    "Trade, Transportation, and Utilities",
+    "Information",
+    "Financial Activities",
+    "Professional and Business Services",
+    "Private Education and Health Services",
+    "Leisure and Hospitality",
+    "Other Services"
+  ],
+  "features": [
+    "employment_level_thousands",
+    "average_weekly_hours",
+    "real_average_hourly_earnings_1982_84_dollars",
+    "job_openings_rate_pct",
+    "hires_rate_pct",
+    "quits_rate_pct",
+    "layoffs_discharges_rate_pct",
+    "business_application_intensity_per_10000_employees",
+    "high_propensity_application_share",
+    "planned_wage_application_share"
+  ]
+}

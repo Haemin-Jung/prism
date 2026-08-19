@@ -1,0 +1,22 @@
+#   pip install -r requirements.txt
+#
+# NVIDIA GPU (optional, do this first):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+#   pip install -r requirements.txt
+
+torch
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+joblib
+lightgbm
+requests
+
+# Statistical baselines
+statsmodels
+pmdarima
+
+# Excel export
+openpyxl
